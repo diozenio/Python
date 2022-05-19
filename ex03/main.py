@@ -1,7 +1,7 @@
-valor = float(input("Digite um valor: \n"))
-if valor > 0:
-    print("Valor positivo")
-elif valor == 0:
-    print("Valor igual a 0")
+sexo = input("Digite o sexo:\n")
+if sexo.lower() == "m":
+    print("Masculino")
+elif sexo.lower() == "f":
+    print("Feminino")
 else:
-    print("Valor negativo")
+    print("Sexo inválido")
