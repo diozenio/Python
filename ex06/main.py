@@ -1,7 +1,7 @@
-nota = float(input("Digite a nota: \n"))
-if nota >= 10:
-    print("Aprovado com distinção")
-elif nota >= 7:
-    print("Aprovado")
-else:
-    print("Reprovado")
+num1 = float(input("Digite o primeiro número: \n"))
+num2 = float(input("Digite o segundo número: \n"))
+num3 = float(input("Digite o terceiro número: \n"))
+
+numeros = [num1, num2, num3]
+maiores = numeros.sort()
+print(f"O maior número é {numeros[2]}")
