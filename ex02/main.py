@@ -1,8 +1,7 @@
-num1 = float(input("Digite o primeiro número: \n"))
-num2 = float(input("Digite o segundo número: \n"))
-
-if num1 > num2:
-    print(f"O maior número é: {num1}") 
+valor = float(input("Digite um valor: \n"))
+if valor > 0:
+    print("Valor positivo")
+elif valor == 0:
+    print("Valor igual a 0")
 else:
-    print(f"O maior número é: {num2}") 
-    
+    print("Valor negativo")
