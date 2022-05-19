@@ -1,9 +1,7 @@
-vogais = ("a", "e", "i", "o", "u")
-letra = input("Digite uma letra: \n")
-
-if vogais.__contains__(letra) and len(letra) == 1:
-    print("Vogal")
-elif len(letra)!= 1:
-    print("Inválido")
+nota = float(input("Digite a nota: \n"))
+if nota >= 10:
+    print("Aprovado com distinção")
+elif nota >= 7:
+    print("Aprovado")
 else:
-    print("Consoante")
+    print("Reprovado")
