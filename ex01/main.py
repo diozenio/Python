@@ -1,14 +1,8 @@
-altura = float(input("Qual sua altura?\n"))
-peso = float(input("Qual seu peso?\n"))
-imc = peso / (altura * altura)
+num1 = float(input("Digite o primeiro número: \n"))
+num2 = float(input("Digite o segundo número: \n"))
 
-if imc < 18.5:
-    print(f"abaixo do peso {imc}")
-elif imc >= 18.5 and imc < 25:
-    print(f"peso saudável {imc}")
-elif imc >= 25 and imc < 30:
-    print(f"sobrepeso {imc}")
-elif imc >= 30 and imc < 40:
-    print(f"obeso {imc}")
+if num1 > num2:
+    print(f"O maior número é: {num1}") 
 else:
-    print(f"obeso mórbido {imc}")
+    print(f"O maior número é: {num2}") 
+    
